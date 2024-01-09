@@ -5,7 +5,9 @@ $WorkspaceName = $Env:workspaceName
 $WorkspaceId = $Env:workspaceId
 $Directory = $Env:directory
 $Creds = $Env:creds
-Get-Item $Env:creds
+$Bytes = [System.Text.Encoding]::Unicode.GetBytes($Creds)
+$EncodedText =[Convert]::ToBase64String($Bytes)
+echo $EncodedText
 $contentTypes = $Env:contentTypes
 $contentTypeMapping = @{
     "AnalyticsRule"=@("Microsoft.OperationalInsights/workspaces/providers/alertRules", "Microsoft.OperationalInsights/workspaces/providers/alertRules/actions");
