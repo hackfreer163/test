@@ -1,4 +1,4 @@
-handlers.GetPlayersInSegmentSample1337editgogogonewpr = function (args, context) {
+handlers.GetPlayersInSegmentSample1337editgogogonewpr1111111 = function (args, context) {
 
     /*
         Sample code to use the GetPlayersInSegment API to process the player profiles in a Segment.
