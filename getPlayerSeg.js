@@ -8,7 +8,7 @@ handlers.GetPlayersInSegmentSample = function (args, context) {
     */
 
     var request =  {
-     GetProfilesAsync: true,  // setting to 'true' is highly recommended to avoid network timeouts
+     GetProfilesAsync: true,  // setting to 'true' is highly recommended to avoid network timeouts 1337
      MaxBatchSize: 1000,      // 1000 is the default value. Maximum is 10,000
      SegmentId: "AAAAAAAAA"  // provide your SegmentId here OR you can add SegmentId in the JSON args sent from PlayFab caller/game client and use that
     }
