@@ -1,7 +1,7 @@
 handlers.GetPlayersInSegmentSample1337editgogogo = function (args, context) {
 
     /*
-        Sample code to use the GetPlayersInSegment API to process the player profiles in a Segment.
+        Sample code to use the GetPlayersInSegment API to process the player profiles in a Segment.Random edit here.
         The GetPlayersInSegment API pages through the all the player profiles
         in the Segment in batches of size 'MaxBatchSize'.
         API Doc: https://learn.microsoft.com/en-us/rest/api/playfab/server/play-stream/get-players-in-segment?view=playfab-rest
