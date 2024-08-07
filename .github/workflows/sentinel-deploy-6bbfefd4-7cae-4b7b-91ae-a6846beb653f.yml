@@ -19,7 +19,7 @@ on:
 
 jobs:
   deploy-content:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     env:
       resourceGroupName: 'sentinelaioh1rg'
       workspaceName: 'sentinelaioh1bbp'
